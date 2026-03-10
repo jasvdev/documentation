@@ -1,0 +1,45 @@
+---
+id: example-mdx
+title: MDX Interactive Example
+sidebar_label: MDX Example
+sidebar_position: 1
+---
+
+import InteractiveCounter from "@site/src/components/InteractiveExample";
+
+# Markdown with JSX (MDX)
+
+Docusaurus supports **MDX**, which allows you to write JSX within your Markdown files. This is incredibly powerful for documentation because it means you can embed live, interactive examples directly alongside your text!
+
+## Embedded React Component
+
+Below is a custom React Component (`InteractiveCounter`) that has been styled using **Tailwind CSS**. Try interacting with it:
+
+<InteractiveCounter />
+
+## How it works
+
+1. You create a React component in `src/components/`.
+2. You import it at the top of your `.mdx` file.
+3. You render it like a normal HTML/JSX tag `<MyComponent />`.
+
+### Syntax highlighting
+
+Because it's Docusaurus, you also get beautiful syntax highlighting out of the box:
+
+```tsx title="src/components/InteractiveExample/index.tsx"
+import React, { useState } from "react";
+
+export default function InteractiveCounter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+```
+
+Now you can document your personal tips, snippets, and UI components interactively!
