@@ -1,0 +1,35 @@
+{
+  "name": "dev.nodejs.base",
+  "version": "1.0.0",
+  "description": "Repositorio base para un proyecto en Node.js con configuración de commits convencionales",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "base",
+    "template"
+  ],
+  "author": "jasvdev",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.2",
+    "typescript": "^5.8.2"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "tsc --noEmit --strict"
+    ]
+  },
+  "packageManager": "pnpm@10.6.2"
+}
