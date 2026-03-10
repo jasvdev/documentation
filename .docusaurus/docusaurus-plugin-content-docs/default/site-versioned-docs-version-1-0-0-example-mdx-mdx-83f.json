@@ -1,0 +1,26 @@
+{
+  "id": "example-mdx",
+  "title": "MDX Interactive Example",
+  "description": "Docusaurus supports MDX, which allows you to write JSX within your Markdown files. This is incredibly powerful for documentation because it means you can embed live, interactive examples directly alongside your text!",
+  "source": "@site/versioned_docs/version-1.0.0/example-mdx.mdx",
+  "sourceDirName": ".",
+  "slug": "/example-mdx",
+  "permalink": "/docs/example-mdx",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.0.0/example-mdx.mdx",
+  "tags": [],
+  "version": "1.0.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "example-mdx",
+    "title": "MDX Interactive Example",
+    "sidebar_label": "MDX Example",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  }
+}
