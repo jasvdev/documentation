@@ -28,6 +28,44 @@ pnpm run docusaurus docs:version <numero-o-nombre>
 
 ¡Con esto, aparecerá un menú desplegable en todos tus documentos para viajar en el tiempo a través de las diferentes versiones!
 
+## Despliegue en GitHub Pages
+
+El sitio se despliega automáticamente en [https://jasvdev.github.io/documentation/](https://jasvdev.github.io/documentation/) mediante GitHub Actions al hacer push a `main`.
+
+### Estrategia de despliegue
+
+Se usa la estrategia nativa de GitHub Pages con `actions/deploy-pages`, que elimina la necesidad de un branch `gh-pages` y no requiere configurar el source manualmente.
+
+El workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) tiene dos jobs:
+- **build** — instala dependencias, compila el sitio y sube el artefacto
+- **deploy** — despliega el artefacto directamente a GitHub Pages
+
+### Configuración inicial (solo una vez)
+
+Hay que habilitar GitHub Pages en modo **GitHub Actions** (no branch) en el repositorio remoto:
+
+**Opción A — Desde la UI de GitHub:**
+
+1. Ir a `Settings > Pages` del repositorio
+2. En **Source**, seleccionar **"GitHub Actions"**
+3. Guardar
+
+**Opción B — Con GitHub CLI:**
+
+```bash
+gh api --method PUT repos/jasvdev/documentation/pages \
+  -f "build_type=workflow"
+```
+
+**Verificar la configuración actual:**
+
+```bash
+gh api repos/jasvdev/documentation/pages
+# El campo "build_type" debe ser "workflow"
+```
+
+> **Nota:** Si `build_type` es `legacy`, Pages intentará servir desde un branch (como `main` o `gh-pages`) en lugar del artefacto generado por el workflow, y la URL mostrará un 404.
+
 ## Comandos Útiles
 
 - **Iniciar en desarrollo**: `pnpm start`
