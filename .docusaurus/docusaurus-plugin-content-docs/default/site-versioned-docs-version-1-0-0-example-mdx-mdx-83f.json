@@ -19,8 +19,8 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Tutorial Intro",
-    "permalink": "/documentation/docs/intro"
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/documentation/docs/tutorial-extras/translate-your-site"
   }
 }

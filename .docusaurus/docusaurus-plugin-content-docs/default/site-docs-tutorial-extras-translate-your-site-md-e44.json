@@ -19,5 +19,9 @@
   "previous": {
     "title": "Manage Docs Versions",
     "permalink": "/documentation/docs/next/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "MDX Example",
+    "permalink": "/documentation/docs/next/example-mdx"
   }
 }
