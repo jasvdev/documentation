@@ -95,7 +95,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "/docs/docusaurus/intro"
             }
           ]
         },

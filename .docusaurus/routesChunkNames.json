@@ -1,175 +1,156 @@
 {
-  "/documentation/__docusaurus/debug-c3b": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    }
-  },
-  "/documentation/__docusaurus/debug/config-e83": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    }
-  },
-  "/documentation/__docusaurus/debug/content-8fc": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    },
-    "__props": "__props---documentation-docusaurus-debug-contentd-0-c-599"
-  },
-  "/documentation/__docusaurus/debug/globalData-f7c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    }
-  },
-  "/documentation/__docusaurus/debug/metadata-dc0": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    }
-  },
-  "/documentation/__docusaurus/debug/registry-352": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    }
-  },
-  "/documentation/__docusaurus/debug/routes-7c8": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debugb-38-5f9"
-    }
-  },
   "/documentation/markdown-page-1c7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---documentation-markdown-pagea-74-682"
+      "plugin": "a7456010"
     },
-    "content": "content---documentation-markdown-page-393-bce"
+    "content": "393be207"
   },
-  "/documentation/docs-d3f": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/documentation/docs-40a": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---documentation-docsaba-b17"
+      "plugin": "aba21aa0"
     }
   },
-  "/documentation/docs/next-948": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---documentation-docs-next-099-787"
+  "/documentation/docs/next-4be": {
+    "__comp": "a7bd4aaa",
+    "__props": "0994d910"
   },
-  "/documentation/docs/next-bcd": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/documentation/docs/next-70d": {
+    "__comp": "a94703ab"
+  },
+  "/documentation/docs/next/category/git-00e": {
+    "__comp": "14eb3368",
+    "__props": "3526e398"
   },
   "/documentation/docs/next/category/tutorial---basics-6a2": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---documentation-docs-next-category-tutorial-basicsdd-3-02d"
+    "__comp": "14eb3368",
+    "__props": "dd3df1c0"
   },
   "/documentation/docs/next/category/tutorial---extras-6e4": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---documentation-docs-next-category-tutorial-extrasa-0-b-e6f"
+    "__comp": "14eb3368",
+    "__props": "a0b09022"
   },
-  "/documentation/docs/next/example-mdx-b8a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-example-mdx-16-a-c9f"
+  "/documentation/docs/next/docusaurus/example-mdx-788": {
+    "__comp": "17896441",
+    "content": "b2242017"
   },
-  "/documentation/docs/next/intro-e9d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-intro-0-e-3-a14"
+  "/documentation/docs/next/docusaurus/intro-0da": {
+    "__comp": "17896441",
+    "content": "21038ea1"
   },
-  "/documentation/docs/next/tutorial-basics/congratulations-229": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-basics-congratulations-822-1d6"
+  "/documentation/docs/next/docusaurus/tutorial-basics/congratulations-69a": {
+    "__comp": "17896441",
+    "content": "61e90c63"
   },
-  "/documentation/docs/next/tutorial-basics/create-a-blog-post-b98": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-basics-create-a-blog-post-533-d2c"
+  "/documentation/docs/next/docusaurus/tutorial-basics/create-a-blog-post-e66": {
+    "__comp": "17896441",
+    "content": "5f78db55"
   },
-  "/documentation/docs/next/tutorial-basics/create-a-document-5f4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-basics-create-a-document-1-e-4-aa6"
+  "/documentation/docs/next/docusaurus/tutorial-basics/create-a-document-934": {
+    "__comp": "17896441",
+    "content": "b4b3f14b"
   },
-  "/documentation/docs/next/tutorial-basics/create-a-page-170": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-basics-create-a-page-5-c-8-140"
+  "/documentation/docs/next/docusaurus/tutorial-basics/create-a-page-51e": {
+    "__comp": "17896441",
+    "content": "f7a7512f"
   },
-  "/documentation/docs/next/tutorial-basics/deploy-your-site-bc2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-basics-deploy-your-sitef-55-386"
+  "/documentation/docs/next/docusaurus/tutorial-basics/deploy-your-site-2f5": {
+    "__comp": "17896441",
+    "content": "42554004"
   },
-  "/documentation/docs/next/tutorial-basics/markdown-features-625": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-basics-markdown-features-18-c-b1f"
+  "/documentation/docs/next/docusaurus/tutorial-basics/markdown-features-649": {
+    "__comp": "17896441",
+    "content": "a2967914"
   },
-  "/documentation/docs/next/tutorial-extras/manage-docs-versions-c49": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-extras-manage-docs-versionsdff-0d4"
+  "/documentation/docs/next/docusaurus/tutorial-extras/manage-docs-versions-253": {
+    "__comp": "17896441",
+    "content": "508ec812"
   },
-  "/documentation/docs/next/tutorial-extras/translate-your-site-4c5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-next-tutorial-extras-translate-your-sitee-44-84d"
+  "/documentation/docs/next/docusaurus/tutorial-extras/translate-your-site-6af": {
+    "__comp": "17896441",
+    "content": "9b8331fb"
   },
-  "/documentation/docs-dfb": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---documentation-docsf-0-e-064"
+  "/documentation/docs/next/Git/about-fae": {
+    "__comp": "17896441",
+    "content": "e9e4178c"
   },
-  "/documentation/docs-0a1": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/documentation/docs/next/Git/conventional-commits-d87": {
+    "__comp": "17896441",
+    "content": "68721039"
+  },
+  "/documentation/docs/next/Git/git-flow-030": {
+    "__comp": "17896441",
+    "content": "f79a0066"
+  },
+  "/documentation/docs/next/Git/manejo-de-ssh-a58": {
+    "__comp": "17896441",
+    "content": "66220f26"
+  },
+  "/documentation/docs/next/Git/utils-63f": {
+    "__comp": "17896441",
+    "content": "a17f08d5"
+  },
+  "/documentation/docs-c5f": {
+    "__comp": "a7bd4aaa",
+    "__props": "f0e682a0"
+  },
+  "/documentation/docs-ae3": {
+    "__comp": "a94703ab"
   },
   "/documentation/docs/category/tutorial---basics-511": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---documentation-docs-category-tutorial-basicsba-0-43b"
+    "__comp": "14eb3368",
+    "__props": "ba08021d"
   },
   "/documentation/docs/category/tutorial---extras-8df": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---documentation-docs-category-tutorial-extras-07-e-ac0"
+    "__comp": "14eb3368",
+    "__props": "07e155c0"
   },
-  "/documentation/docs/example-mdx-6db": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-example-mdx-83-f-fda"
+  "/documentation/docs/docusaurus/example-mdx-d31": {
+    "__comp": "17896441",
+    "content": "3fdb3999"
   },
-  "/documentation/docs/intro-98f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-intro-5-d-9-daf"
+  "/documentation/docs/docusaurus/intro-913": {
+    "__comp": "17896441",
+    "content": "a44dffac"
   },
-  "/documentation/docs/tutorial-basics/congratulations-9c5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-basics-congratulations-793-efb"
+  "/documentation/docs/docusaurus/tutorial-basics/congratulations-888": {
+    "__comp": "17896441",
+    "content": "134eb052"
   },
-  "/documentation/docs/tutorial-basics/create-a-blog-post-b84": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-basics-create-a-blog-post-4-c-7-77d"
+  "/documentation/docs/docusaurus/tutorial-basics/create-a-blog-post-1a2": {
+    "__comp": "17896441",
+    "content": "8ef6d79f"
   },
-  "/documentation/docs/tutorial-basics/create-a-document-3c0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-basics-create-a-documente-92-cb3"
+  "/documentation/docs/docusaurus/tutorial-basics/create-a-document-6ac": {
+    "__comp": "17896441",
+    "content": "0c6cd2d8"
   },
-  "/documentation/docs/tutorial-basics/create-a-page-7f6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-basics-create-a-page-73-a-472"
+  "/documentation/docs/docusaurus/tutorial-basics/create-a-page-23d": {
+    "__comp": "17896441",
+    "content": "59695edb"
   },
-  "/documentation/docs/tutorial-basics/deploy-your-site-1c1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-basics-deploy-your-siteacc-e74"
+  "/documentation/docs/docusaurus/tutorial-basics/deploy-your-site-d16": {
+    "__comp": "17896441",
+    "content": "c4fdefc7"
   },
-  "/documentation/docs/tutorial-basics/markdown-features-a53": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-basics-markdown-features-1-c-8-133"
+  "/documentation/docs/docusaurus/tutorial-basics/markdown-features-368": {
+    "__comp": "17896441",
+    "content": "66ec85b4"
   },
-  "/documentation/docs/tutorial-extras/manage-docs-versions-5e2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-extras-manage-docs-versions-573-0d7"
+  "/documentation/docs/docusaurus/tutorial-extras/manage-docs-versions-c76": {
+    "__comp": "17896441",
+    "content": "75e5c9f7"
   },
-  "/documentation/docs/tutorial-extras/translate-your-site-a77": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tutorial-extras-translate-your-siteabb-a3e"
+  "/documentation/docs/docusaurus/tutorial-extras/translate-your-site-6ca": {
+    "__comp": "17896441",
+    "content": "a006814e"
   },
   "/documentation/-4a1": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---documentation-markdown-pagea-74-682"
+      "plugin": "a7456010"
     },
-    "config": "config---documentation-5-e-9-cf4"
+    "config": "5e9f5e1a"
   }
 }
