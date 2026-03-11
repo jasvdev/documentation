@@ -3,57 +3,28 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/documentation/__docusaurus/debug',
-    component: ComponentCreator('/documentation/__docusaurus/debug', 'c3b'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/config',
-    component: ComponentCreator('/documentation/__docusaurus/debug/config', 'e83'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/content',
-    component: ComponentCreator('/documentation/__docusaurus/debug/content', '8fc'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/globalData',
-    component: ComponentCreator('/documentation/__docusaurus/debug/globalData', 'f7c'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/metadata',
-    component: ComponentCreator('/documentation/__docusaurus/debug/metadata', 'dc0'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/registry',
-    component: ComponentCreator('/documentation/__docusaurus/debug/registry', '352'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/routes',
-    component: ComponentCreator('/documentation/__docusaurus/debug/routes', '7c8'),
-    exact: true
-  },
-  {
     path: '/documentation/markdown-page',
     component: ComponentCreator('/documentation/markdown-page', '1c7'),
     exact: true
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', 'd3f'),
+    component: ComponentCreator('/documentation/docs', '40a'),
     routes: [
       {
         path: '/documentation/docs/next',
-        component: ComponentCreator('/documentation/docs/next', '948'),
+        component: ComponentCreator('/documentation/docs/next', '4be'),
         routes: [
           {
             path: '/documentation/docs/next',
-            component: ComponentCreator('/documentation/docs/next', 'bcd'),
+            component: ComponentCreator('/documentation/docs/next', '70d'),
             routes: [
+              {
+                path: '/documentation/docs/next/category/git',
+                component: ComponentCreator('/documentation/docs/next/category/git', '00e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/documentation/docs/next/category/tutorial---basics',
                 component: ComponentCreator('/documentation/docs/next/category/tutorial---basics', '6a2'),
@@ -67,62 +38,92 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/example-mdx',
-                component: ComponentCreator('/documentation/docs/next/example-mdx', 'b8a'),
+                path: '/documentation/docs/next/docusaurus/example-mdx',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/example-mdx', '788'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/intro',
-                component: ComponentCreator('/documentation/docs/next/intro', 'e9d'),
+                path: '/documentation/docs/next/docusaurus/intro',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/intro', '0da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-basics/congratulations',
-                component: ComponentCreator('/documentation/docs/next/tutorial-basics/congratulations', '229'),
+                path: '/documentation/docs/next/docusaurus/tutorial-basics/congratulations',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-basics/congratulations', '69a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/documentation/docs/next/tutorial-basics/create-a-blog-post', 'b98'),
+                path: '/documentation/docs/next/docusaurus/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-basics/create-a-blog-post', 'e66'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-basics/create-a-document',
-                component: ComponentCreator('/documentation/docs/next/tutorial-basics/create-a-document', '5f4'),
+                path: '/documentation/docs/next/docusaurus/tutorial-basics/create-a-document',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-basics/create-a-document', '934'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-basics/create-a-page',
-                component: ComponentCreator('/documentation/docs/next/tutorial-basics/create-a-page', '170'),
+                path: '/documentation/docs/next/docusaurus/tutorial-basics/create-a-page',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-basics/create-a-page', '51e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/documentation/docs/next/tutorial-basics/deploy-your-site', 'bc2'),
+                path: '/documentation/docs/next/docusaurus/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-basics/deploy-your-site', '2f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-basics/markdown-features',
-                component: ComponentCreator('/documentation/docs/next/tutorial-basics/markdown-features', '625'),
+                path: '/documentation/docs/next/docusaurus/tutorial-basics/markdown-features',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-basics/markdown-features', '649'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/documentation/docs/next/tutorial-extras/manage-docs-versions', 'c49'),
+                path: '/documentation/docs/next/docusaurus/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-extras/manage-docs-versions', '253'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/next/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/documentation/docs/next/tutorial-extras/translate-your-site', '4c5'),
+                path: '/documentation/docs/next/docusaurus/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/documentation/docs/next/docusaurus/tutorial-extras/translate-your-site', '6af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/next/Git/about',
+                component: ComponentCreator('/documentation/docs/next/Git/about', 'fae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/next/Git/conventional-commits',
+                component: ComponentCreator('/documentation/docs/next/Git/conventional-commits', 'd87'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/next/Git/git-flow',
+                component: ComponentCreator('/documentation/docs/next/Git/git-flow', '030'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/next/Git/manejo-de-ssh',
+                component: ComponentCreator('/documentation/docs/next/Git/manejo-de-ssh', 'a58'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/next/Git/utils',
+                component: ComponentCreator('/documentation/docs/next/Git/utils', '63f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -132,11 +133,11 @@ export default [
       },
       {
         path: '/documentation/docs',
-        component: ComponentCreator('/documentation/docs', 'dfb'),
+        component: ComponentCreator('/documentation/docs', 'c5f'),
         routes: [
           {
             path: '/documentation/docs',
-            component: ComponentCreator('/documentation/docs', '0a1'),
+            component: ComponentCreator('/documentation/docs', 'ae3'),
             routes: [
               {
                 path: '/documentation/docs/category/tutorial---basics',
@@ -151,62 +152,62 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/example-mdx',
-                component: ComponentCreator('/documentation/docs/example-mdx', '6db'),
+                path: '/documentation/docs/docusaurus/example-mdx',
+                component: ComponentCreator('/documentation/docs/docusaurus/example-mdx', 'd31'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/intro',
-                component: ComponentCreator('/documentation/docs/intro', '98f'),
+                path: '/documentation/docs/docusaurus/intro',
+                component: ComponentCreator('/documentation/docs/docusaurus/intro', '913'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/documentation/docs/tutorial-basics/congratulations', '9c5'),
+                path: '/documentation/docs/docusaurus/tutorial-basics/congratulations',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-basics/congratulations', '888'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/documentation/docs/tutorial-basics/create-a-blog-post', 'b84'),
+                path: '/documentation/docs/docusaurus/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-basics/create-a-blog-post', '1a2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/documentation/docs/tutorial-basics/create-a-document', '3c0'),
+                path: '/documentation/docs/docusaurus/tutorial-basics/create-a-document',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-basics/create-a-document', '6ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/documentation/docs/tutorial-basics/create-a-page', '7f6'),
+                path: '/documentation/docs/docusaurus/tutorial-basics/create-a-page',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-basics/create-a-page', '23d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/documentation/docs/tutorial-basics/deploy-your-site', '1c1'),
+                path: '/documentation/docs/docusaurus/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-basics/deploy-your-site', 'd16'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/documentation/docs/tutorial-basics/markdown-features', 'a53'),
+                path: '/documentation/docs/docusaurus/tutorial-basics/markdown-features',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-basics/markdown-features', '368'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/documentation/docs/tutorial-extras/manage-docs-versions', '5e2'),
+                path: '/documentation/docs/docusaurus/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-extras/manage-docs-versions', 'c76'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/documentation/docs/tutorial-extras/translate-your-site', 'a77'),
+                path: '/documentation/docs/docusaurus/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/documentation/docs/docusaurus/tutorial-extras/translate-your-site', '6ca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
