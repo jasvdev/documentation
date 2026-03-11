@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-1.0.0/tutorial-basics/deploy-your-site.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
-  "permalink": "/docs/tutorial-basics/deploy-your-site",
+  "permalink": "/documentation/docs/tutorial-basics/deploy-your-site",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.0.0/tutorial-basics/deploy-your-site.md",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Markdown Features",
-    "permalink": "/docs/tutorial-basics/markdown-features"
+    "title": "Create a Blog Post",
+    "permalink": "/documentation/docs/tutorial-basics/create-a-blog-post"
   },
   "next": {
-    "title": "Congratulations!",
-    "permalink": "/docs/tutorial-basics/congratulations"
+    "title": "Markdown Features",
+    "permalink": "/documentation/docs/tutorial-basics/markdown-features"
   }
 }
