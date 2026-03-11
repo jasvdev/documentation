@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Blog Post",
-    "permalink": "/documentation/docs/next/tutorial-basics/create-a-blog-post"
-  },
-  "next": {
     "title": "Deploy your site",
     "permalink": "/documentation/docs/next/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/documentation/docs/next/tutorial-basics/congratulations"
   }
 }

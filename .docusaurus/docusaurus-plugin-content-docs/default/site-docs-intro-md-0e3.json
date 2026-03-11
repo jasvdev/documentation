@@ -16,10 +16,6 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "MDX Example",
-    "permalink": "/documentation/docs/next/example-mdx"
-  },
   "next": {
     "title": "Tutorial - Basics",
     "permalink": "/documentation/docs/next/category/tutorial---basics"

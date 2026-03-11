@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": false,
           "path": "/documentation/docs/next",
-          "mainDocId": "example-mdx",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "example-mdx",
@@ -75,8 +75,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/documentation/docs/next/example-mdx",
-                "label": "MDX Example"
+                "path": "/documentation/docs/next/intro",
+                "label": "intro"
               }
             }
           }
@@ -86,7 +86,7 @@
           "label": "1.0.0",
           "isLast": true,
           "path": "/documentation/docs",
-          "mainDocId": "example-mdx",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "example-mdx",
@@ -153,8 +153,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/documentation/docs/example-mdx",
-                "label": "MDX Example"
+                "path": "/documentation/docs/intro",
+                "label": "intro"
               }
             }
           }
