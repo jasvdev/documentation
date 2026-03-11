@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-1.0.0/example-mdx.mdx",
   "sourceDirName": ".",
   "slug": "/example-mdx",
-  "permalink": "/docs/example-mdx",
+  "permalink": "/documentation/docs/example-mdx",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.0.0/example-mdx.mdx",
@@ -21,6 +21,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "permalink": "/documentation/docs/intro"
   }
 }
