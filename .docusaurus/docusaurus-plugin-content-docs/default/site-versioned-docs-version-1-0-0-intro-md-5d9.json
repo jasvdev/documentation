@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-1.0.0/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/documentation/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.0.0/intro.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "MDX Example",
-    "permalink": "/docs/example-mdx"
+    "permalink": "/documentation/docs/example-mdx"
   },
   "next": {
     "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "permalink": "/documentation/docs/category/tutorial---basics"
   }
 }
