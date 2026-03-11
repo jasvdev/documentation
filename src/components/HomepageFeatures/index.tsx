@@ -26,7 +26,7 @@ const features: FeatureItem[] = [
     tag: 'guides',
     title: 'Guías Técnicas',
     description: 'Documentación paso a paso de conceptos, herramientas y tecnologías. Desde configuración inicial hasta casos de uso avanzados.',
-    to: '/docs/intro',
+    to: '/docs/docusaurus/intro',
   },
   {
     icon: (
@@ -41,7 +41,7 @@ const features: FeatureItem[] = [
     tag: 'architecture',
     title: 'Patrones & Arquitectura',
     description: 'Decisiones de diseño, ADRs y patrones de software. Principios SOLID, clean architecture y estrategias de escalabilidad.',
-    to: '/docs/intro',
+    to: '/docs/docusaurus/intro',
   },
   {
     icon: (
@@ -54,7 +54,7 @@ const features: FeatureItem[] = [
     tag: 'reference',
     title: 'Referencias Rápidas',
     description: 'Snippets, cheatsheets y referencias de APIs. Todo lo que necesitas al alcance de un vistazo para el día a día.',
-    to: '/docs/intro',
+    to: '/docs/docusaurus/intro',
   },
 ];
 

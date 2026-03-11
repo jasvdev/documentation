@@ -153,7 +153,7 @@ export default function Home(): ReactNode {
           </p>
 
           <div className={styles.heroCtas}>
-            <Link className={styles.btnPrimary} to="/docs/intro">
+            <Link className={styles.btnPrimary} to="/docs/docusaurus/intro">
               Explorar documentación
               <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -202,7 +202,7 @@ export default function Home(): ReactNode {
             Todo en un solo lugar. Guías, referencias y patrones<br />
             para construir software de calidad.
           </p>
-          <Link className={styles.btnPrimaryLg} to="/docs/intro">
+          <Link className={styles.btnPrimaryLg} to="/docs/docusaurus/intro">
             Comenzar ahora
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

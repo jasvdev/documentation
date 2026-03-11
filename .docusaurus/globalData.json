@@ -8,56 +8,81 @@
           "label": "Next",
           "isLast": false,
           "path": "/documentation/docs/next",
-          "mainDocId": "intro",
+          "mainDocId": "docusaurus/intro",
           "docs": [
             {
-              "id": "example-mdx",
-              "path": "/documentation/docs/next/example-mdx",
+              "id": "docusaurus/example-mdx",
+              "path": "/documentation/docs/next/docusaurus/example-mdx",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/documentation/docs/next/intro",
+              "id": "docusaurus/intro",
+              "path": "/documentation/docs/next/docusaurus/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/documentation/docs/next/tutorial-basics/congratulations",
+              "id": "docusaurus/tutorial-basics/congratulations",
+              "path": "/documentation/docs/next/docusaurus/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/documentation/docs/next/tutorial-basics/create-a-blog-post",
+              "id": "docusaurus/tutorial-basics/create-a-blog-post",
+              "path": "/documentation/docs/next/docusaurus/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/documentation/docs/next/tutorial-basics/create-a-document",
+              "id": "docusaurus/tutorial-basics/create-a-document",
+              "path": "/documentation/docs/next/docusaurus/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/documentation/docs/next/tutorial-basics/create-a-page",
+              "id": "docusaurus/tutorial-basics/create-a-page",
+              "path": "/documentation/docs/next/docusaurus/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/documentation/docs/next/tutorial-basics/deploy-your-site",
+              "id": "docusaurus/tutorial-basics/deploy-your-site",
+              "path": "/documentation/docs/next/docusaurus/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/documentation/docs/next/tutorial-basics/markdown-features",
+              "id": "docusaurus/tutorial-basics/markdown-features",
+              "path": "/documentation/docs/next/docusaurus/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/documentation/docs/next/tutorial-extras/manage-docs-versions",
+              "id": "docusaurus/tutorial-extras/manage-docs-versions",
+              "path": "/documentation/docs/next/docusaurus/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/documentation/docs/next/tutorial-extras/translate-your-site",
+              "id": "docusaurus/tutorial-extras/translate-your-site",
+              "path": "/documentation/docs/next/docusaurus/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/about",
+              "path": "/documentation/docs/next/Git/about",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/conventional-commits",
+              "path": "/documentation/docs/next/Git/conventional-commits",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/git-flow",
+              "path": "/documentation/docs/next/Git/git-flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/manejo-de-ssh",
+              "path": "/documentation/docs/next/Git/manejo-de-ssh",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/utils",
+              "path": "/documentation/docs/next/Git/utils",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -69,14 +94,19 @@
               "id": "/category/tutorial---extras",
               "path": "/documentation/docs/next/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/git",
+              "path": "/documentation/docs/next/category/git",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/documentation/docs/next/intro",
-                "label": "intro"
+                "path": "/documentation/docs/next/docusaurus/intro",
+                "label": "docusaurus/intro"
               }
             }
           }
@@ -86,56 +116,56 @@
           "label": "1.0.0",
           "isLast": true,
           "path": "/documentation/docs",
-          "mainDocId": "intro",
+          "mainDocId": "docusaurus/intro",
           "docs": [
             {
-              "id": "example-mdx",
-              "path": "/documentation/docs/example-mdx",
+              "id": "docusaurus/example-mdx",
+              "path": "/documentation/docs/docusaurus/example-mdx",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/documentation/docs/intro",
+              "id": "docusaurus/intro",
+              "path": "/documentation/docs/docusaurus/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/documentation/docs/tutorial-basics/congratulations",
+              "id": "docusaurus/tutorial-basics/congratulations",
+              "path": "/documentation/docs/docusaurus/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/documentation/docs/tutorial-basics/create-a-blog-post",
+              "id": "docusaurus/tutorial-basics/create-a-blog-post",
+              "path": "/documentation/docs/docusaurus/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/documentation/docs/tutorial-basics/create-a-document",
+              "id": "docusaurus/tutorial-basics/create-a-document",
+              "path": "/documentation/docs/docusaurus/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/documentation/docs/tutorial-basics/create-a-page",
+              "id": "docusaurus/tutorial-basics/create-a-page",
+              "path": "/documentation/docs/docusaurus/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/documentation/docs/tutorial-basics/deploy-your-site",
+              "id": "docusaurus/tutorial-basics/deploy-your-site",
+              "path": "/documentation/docs/docusaurus/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/documentation/docs/tutorial-basics/markdown-features",
+              "id": "docusaurus/tutorial-basics/markdown-features",
+              "path": "/documentation/docs/docusaurus/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/documentation/docs/tutorial-extras/manage-docs-versions",
+              "id": "docusaurus/tutorial-extras/manage-docs-versions",
+              "path": "/documentation/docs/docusaurus/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/documentation/docs/tutorial-extras/translate-your-site",
+              "id": "docusaurus/tutorial-extras/translate-your-site",
+              "path": "/documentation/docs/docusaurus/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -153,8 +183,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/documentation/docs/intro",
-                "label": "intro"
+                "path": "/documentation/docs/docusaurus/intro",
+                "label": "docusaurus/intro"
               }
             }
           }
