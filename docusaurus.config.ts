@@ -94,6 +94,10 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+        },
 {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
