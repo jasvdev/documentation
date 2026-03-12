@@ -1,0 +1,8 @@
+{
+  "label": "🧪Testing",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Guia completa de testing: unit tests, componentes React, E2E con Playwright y metodologia TDD."
+  }
+}
